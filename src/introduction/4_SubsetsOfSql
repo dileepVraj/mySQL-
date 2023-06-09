@@ -1,0 +1,16 @@
+Here are subsets of SQL which serves specific purposes.
+
+1. Data definition language(DDL): DDl data definition language is used to define and manage
+the structure of database.
+It includes statements such as CREATE, ALERT, DROP, which are used to create, modify and
+delete database objects like tables, indexes and views.
+
+2. Data Manipulation Language(DML): DML is used to manipulate data within database. It includes statements like
+INSERT, UPDATE, and DELETE, which are used to retrieve, add, modify and remove data from database tables.
+
+3. Data Control Language(DCL): DCL is used to control access to databases and manage user privileges. Statements like
+GRANT and REVOKE are used to grant and revoke permissions and privileges to users or roles.
+
+4. Transaction Control Language(TCL): TCL is used to manage transactions in databases. Statements like COMMIT, ROLLBACK
+and SAVEPOINT are used to control the transactional behavior and ensure data integrity.
+

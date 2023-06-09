@@ -1,0 +1,27 @@
+SQL stands for structured query language it is a programming language designed for storing and manipulating data in
+relational database management systems.
+It provides a standard way of interacting databases, allowing users to store, retrieve, update and delete data.
+
+SQL is declerative language means that user specify what data they want to retrieve or modify without specifying how to
+do it.
+The Database Management System interprets the queries and determines most effective way to execute them.
+
+Some common tasks performed using SQL are:
+
+Retrieving data, Modifying data, Creating and altering database structure, Managing database objects.
+
+Retrieving data: SQL allows us to retrieve data from one or more tables using queries. You can specify conditions, sort
+the results, and limit the number of records returned.
+
+Modifying data: SQL provides commands to create new records, update existing records, and delete records from database
+table.
+
+Creating and altering database structure: SQL enables us to create new tables, define their structure(columns, data types,
+constraints), and modifying existing tables (add or remove columns, change data types).
+
+Managing database objects: SQL allows you to create and manage database objects like, views, indexes, stored procedures,
+functions, and triggers.
+
+SQL is widely used programming language that is used to intreact with relational database management systems, including
+popular one ORACLE, MYSQL, PostgreSQL, and SQLite. Its syntax and functionality may vary slightly across different
+database systems, but the core concepts and principles remain same.

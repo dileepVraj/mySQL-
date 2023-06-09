@@ -1,0 +1,9 @@
+In this section we are going to learn how to create, activate, an delete database using SQL workbench.
+
+1. To create a database: To create a new database first create a new SQL tab to execute queries. In that tab execute
+'CREATE DATABASE databaseName;' command and click on thunder symbol.
+
+2. To activate database particular database: To activate specific database use 'USE databaseName' command.
+
+3. To delete database: To delete particular database use 'DROP DATABASE databaseName' command.
+
