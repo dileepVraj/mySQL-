@@ -1,0 +1,10 @@
+To delete a table from database we have two options, 'drop' and 'truncate' options.
+
+1. DROP: when we use 'drop table tableName' it will delete the table along with it's structure(i.e columns,rows etc..)
+In most of mySQL versions the DROP table command in not directly rollback-able with in a transaction.
+
+2. TRUNCATE: When we use 'truncate table tableName' command it will deletes all the data associated with table but the
+structure of the table will be intact.
+
+Truncate table is also not a directly rollback-able transaction.
+

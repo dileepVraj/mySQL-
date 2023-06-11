@@ -1,0 +1,11 @@
+In this section we will get to know how to insert data to a table.
+
+1. To insert data into a table use 'insert into tableName columns if multiple separate them with delimiter (,) values
+(data, if multiple separate them with delimiter ,)'
+
+    syntax: insert into students (std_id, std_name) values (001, 'anil kumar');
+
+    *If we want to insert data into all columns of a table (record) then there is no need to specify all columns in statement.
+    Assume students table has columns std_id, std_name, std_subject, and std_avg.
+
+    syntax: insert into student values (001,'anil kumar', 'computer science', 88.93);

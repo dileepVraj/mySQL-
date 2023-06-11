@@ -1,0 +1,8 @@
+To create table in database first activate the database in which we want to create a table by using 'use databaseName'
+after activating the database, use 'create table tableName' command.
+
+While creating a table we have to define at least one column because columns in table are building blocks where they
+are useful in data organization, data integrity, data manipulation and retrieval, indexing and optimization.
+
+syntax:- create table tableName
+(column1 datatype(limit));

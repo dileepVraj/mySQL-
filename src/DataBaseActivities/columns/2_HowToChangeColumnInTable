@@ -1,0 +1,30 @@
+In this section we are going to learn how to add new column to the existing table, and modify the existing column in
+table and how to delete particular column in a table.
+========================================================================================================================
+
+1. How to add a new column to a table:
+   ----------------------------------
+    Generally we are altering the table by adding new column to the existing table, so we have to use 'alter' keyword to
+    alter table.
+
+    Syntax for adding new column/filed to existing table: 'alter table tableName add columnName dataType(range);'.
+
+========================================================================================================================
+
+2. How to change column name and its dataType in a table:
+   -----------------------------------------------------
+
+    To change name and type of existing column in a table use
+    'alter table tableName change column oldColumnName newColumnName dataType(range)'
+    command where it changes the old column name and it's dataType from existing one to intended one.
+
+========================================================================================================================
+
+3. How to delete a column in a table:
+   ---------------------------------
+    To delete a particular column from a table use 'alter table tableName drop columnName' command.
+========================================================================================================================
+
+
+
+

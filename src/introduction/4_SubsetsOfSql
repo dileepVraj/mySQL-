@@ -1,16 +1,111 @@
 Here are subsets of SQL which serves specific purposes.
+========================================================================================================================
+1. Data definition language:
 
-1. Data definition language(DDL): DDl data definition language is used to define and manage
-the structure of database.
-It includes statements such as CREATE, ALERT, DROP, which are used to create, modify and
-delete database objects like tables, indexes and views.
+In sql data definition language(DDL) is a subset of sql statements used to define and manage structure of database.
+Data Definition Language statements are responsible for creating, modifying, and deleting database objects such as
+tables, indexes, views, and constraints.
 
-2. Data Manipulation Language(DML): DML is used to manipulate data within database. It includes statements like
-INSERT, UPDATE, and DELETE, which are used to retrieve, add, modify and remove data from database tables.
+The primary purpose of Data Definition Language is to define schema or structure of the database.
 
-3. Data Control Language(DCL): DCL is used to control access to databases and manage user privileges. Statements like
-GRANT and REVOKE are used to grant and revoke permissions and privileges to users or roles.
+Commonly used Data Definition Language statements:
 
-4. Transaction Control Language(TCL): TCL is used to manage transactions in databases. Statements like COMMIT, ROLLBACK
-and SAVEPOINT are used to control the transactional behavior and ensure data integrity.
+I. CREATE: The CREATE statement is used to create a new database object, such as table, views, indexes, and constraints.
+    For example CREATE TABLE TABLE-NAME will create new table in database.
+
+II. The ALTER statement is used to modify the existing object of a database.
+    It can be used to add, delete, modify the columns, constraints, and indexes.
+
+III. The DROP statement is used to delete a existing object in a database, such as table, view, index or schema.
+    It permanently removes the object and associated data in database.
+
+IV. TRUNCATE: The TRUNCATE statement is used to delete all data excluding structure of object in a database.
+    It is a fast way to delete all records in a table.
+
+V. RENAME: The RENAME statement is used to rename existing object of a database such as table, or column.
+
+Data Definition Language statements typically executed by administrators or users with appropriate privileges to manage
+database structure.
+They are crucial for setting up initial schema of a database, modifying it as needed, and managing overall structure
+and organization of data.
+
+========================================================================================================================
+2. Data Manipulation Language(DML):
+
+   In mySQL Data Manipulation Language refers to subset of SQL statements used to retrieve, insert, modify, and delete
+   data within tables in database.
+   Data Manipulation Language focuses on modifying the existing data in the table rather than modifying the structure
+   of the database.
+
+   Key Data Manipulation Language statements:
+   -----------------------------------------
+
+ I. SELECT: The SELECT statement is used to retrieve data from one or more tables based on specified conditions.
+    It allows us to query the database and retrieve specific data.
+
+ II. INSERT: INSERT statement is used to insert rows into a table, specifying column values for each inserted row.
+
+ III. UPDATE: The UPDATE statement is used to update the existing data in the table. It allows us to update specific
+      columns in one or more rows with specified conditions.
+
+ IV. MERGE: The MERGE statement is used to perform insert, update, or delete operation on a target table based on results
+ of join with a source table.
+========================================================================================================================
+
+3. Data Control Language(DCL):
+
+   In mySQl Data Control Language statements are used to manage user privileges, access controls, and security with in
+   database.
+   Data Control Statements allow database administrators to control and regulate user permissions or revoking privileges
+   on database objects.
+
+    Key statements in Data Control Language:
+    ---------------------------------------
+I. GRANT: The GRANT statement is used to give specific privileges to users in database. Privileges include ability to
+select, create, update, delete or manage database objects.
+
+II. REVOKE: The REVOKE statement is used to revoke or remove previously granted privileges from users in database.
+    It can revoke specific privileges or all privileges granted to user.
+
+III. ALTER USER: The ALTER USER statement is used to modify the existing user privileges in database.
+
+IV.  DROP USER: The DROP USER statement is used to remove existing user account from database.
+
+V.  CREATE USER: The CREATE USER statement is used to create a new user in database. It includes specifying username,
+    password, and other authentication details.
+
+========================================================================================================================
+4. Transaction Control Language(TCL):
+
+    Transaction Control Language is used to manage transactions with in a database. Transaction Control language statements
+    are used/responsible for managing the beginning, ending, and intermediate states of transactions to maintain data
+    integrity and data consistency.
+
+    The primary statements of Transaction Control Language:
+    ------------------------------------------------------
+
+I. START TRANSACTION: This statement is used to explicitly begin a new transaction. It marks starting point of a transaction
+    and allows you to group multiple sql statements into a logical unit or work.
+
+II. COMMIT: The COMMIT statement is used to save changes made during the transaction. It confirms successful completion
+    a transaction and save the changes permanently in the database.
+
+III. ROLLBACK: The ROLLBACK statement is used to undo the changes made during the transaction and brings back the data
+    to its original state before transaction begins.
+    It cancels the transaction and ensures that no changes are applied to the database.
+
+IV. SAVEPOINT: The SAVEPOINT is used to create a named points within a transaction to provide more granular control over
+    the rollbacks. You can define a SAVEPOINT at various stages of transaction and can rollback to that specific point
+    without rollback to the entire transaction.
+
+V.  RELEASE SAVEPOINT: The RELEASE SAVEPOINT is used to remove a previously defined SAVEPOINT. It frees up system resources
+    associated with that SAVEPOINT without affecting changes made to that SAVEPOINT.
+
+VI. ROLLBACK TO SAVEPOINT: The ROLLBACK TO SAVEPOINT is used to undo changes made in the transaction until specified SAVEPOINT.
+    It allows you to selectively rollback to particular SAVEPOINT with in transaction.
+
+
+
+
+
 

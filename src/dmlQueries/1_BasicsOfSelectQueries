@@ -1,0 +1,5 @@
+1. To display all records in a table use ' select * from tableName;'.
+2. To display particular columns from a particular table use 'select columnName from tableName', if you want to display
+    data in multiple columns separate columns with (,).
+
+    syntax: 'select columnName1, columnName2, columnName3 from tableName;'.
