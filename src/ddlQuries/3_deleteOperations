@@ -1,0 +1,17 @@
+This section will explain how to delete particular column and record(row) from a table.
+
+1. Delete particular column from table:
+    To delete particular column table we have to use sql Data Definition Language statements.
+
+    Syntax: alter table tableName drop columnName;
+
+    Note:- If we want to drop multiple columns at a time then use (,) with columns names.
+
+2. Delete record from a table:
+    To delete particular record from a table we have to use Data Definition Language statements.
+
+    Syntax: delete from tableName where primaryKey and value of table.
+            delete from customers where cust_id =001;
+
+    Note:- you can customize the condition based on your specific requirements to identify the records you want to remove
+            in table.
