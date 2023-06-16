@@ -5,26 +5,26 @@ Database is designed to store and manage large amounts of information in a syste
 Databases are used for various purposes, including:
 
 1. Data storage: Databases provides centralized and secure way to store data. They can handle large amount of information
-and ensure data integrity and durability.
+   and ensure data integrity and durability.
 
 2. Data retrieval: Databases allow users to retrieve specific data based on their needs. Queries can be written to
-retrieve relevant information, filter data based on specific criteria, and retrieve results in structured format.
+   retrieve relevant information, filter data based on specific criteria, and retrieve results in structured format.
 
 3. Data manipulation: Databases provide mechanism to adding, modifying and deleting data. They support operations such
-as insertions, update, and deletions, ensuring data remains consistent and accurate.
+   as insertions, update, and deletions, ensuring data remains consistent and accurate.
 
 4. Data Organization: Databases allow data to be organized and structured in a logical manner. This organization enables
-efficient storage and retrieval of data, as well as the establishment of relationships between different data elements.
+   efficient storage and retrieval of data, as well as the establishment of relationships between different data elements.
 
 5. Data sharing and collaboration: Databases facilitates data sharing among multiple users and applications.
-They provide mechanism for concurrent access, ensuring that multiple users can access and manipulate data simultaneously
-while maintaining data consistency.
+   They provide mechanism for concurrent access, ensuring that multiple users can access and manipulate data simultaneously
+   while maintaining data consistency.
 
 6. Data security: Databases offer features to enforce data security and access control. They allow administrators to define
-user roles, permissions, and restrictions, ensuring that only authorized users can access and modify the data.
+   user roles, permissions, and restrictions, ensuring that only authorized users can access and modify the data.
 
 7. Data scalability: Databases are designed to handle large amount of data and support scalability. They can accommodate
-growing data volumes and user demands without sacrificing performance and data integrity.
+   growing data volumes and user demands without sacrificing performance and data integrity.
 
 Overall databases are used in different fields such as, business, scientific research, finance, healthcare, e-commerce,
-and many others, as they provide reliable and efficient means of storing, managing, and manipulating data.
+and many others, as they provide reliable and efficient ways of storing, managing, and manipulating data.

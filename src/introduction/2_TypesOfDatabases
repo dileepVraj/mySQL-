@@ -4,7 +4,7 @@ Here are some common types of databases along with detailed explanations:
 
 Relational Database Management System (RDBMS):
 Relational databases use the relational model to organize and manage data. They store data in tables, where each table
-consists of rows and columns. The relationships between tables are established using keys, such as primary keys and
+consists rows and columns. The relationships between tables are established using keys, such as primary keys and
 foreign keys.
 RDBMSs provide powerful querying capabilities using SQL (Structured Query Language) and ensure data integrity through
 various constraints. Examples of popular RDBMSs include MySQL, Oracle Database, and Microsoft SQL Server.

@@ -2,7 +2,7 @@ Here are subsets of SQL which serves specific purposes.
 ========================================================================================================================
 1. Data definition language:
 
-In sql data definition language(DDL) is a subset of sql statements used to define and manage structure of database.
+In sql data definition language(DDL) is a subset of sql statements used to define and manage structure of a database.
 Data Definition Language statements are responsible for creating, modifying, and deleting database objects such as
 tables, indexes, views, and constraints.
 
@@ -40,16 +40,16 @@ and organization of data.
    Key Data Manipulation Language statements:
    -----------------------------------------
 
- I. SELECT: The SELECT statement is used to retrieve data from one or more tables based on specified conditions.
-    It allows us to query the database and retrieve specific data.
+ I.     SELECT: The SELECT statement is used to retrieve data from one or more tables based on specified conditions.
+        It allows us to query the database and retrieve specific data.
 
- II. INSERT: INSERT statement is used to insert rows into a table, specifying column values for each inserted row.
+ II.    INSERT: INSERT statement is used to insert rows into a table, specifying column values for each inserted row.
 
- III. UPDATE: The UPDATE statement is used to update the existing data in the table. It allows us to update specific
-      columns in one or more rows with specified conditions.
+ III.   UPDATE: The UPDATE statement is used to update the existing data in the table. It allows us to update specific
+        columns in one or more rows with specified conditions.
 
- IV. MERGE: The MERGE statement is used to perform insert, update, or delete operation on a target table based on results
- of join with a source table.
+ IV.    MERGE: The MERGE statement is used to perform insert, update, or delete operation on a target table based on results
+        of join with a source table.
 ========================================================================================================================
 
 3. Data Control Language(DCL):
@@ -64,7 +64,7 @@ and organization of data.
 I. GRANT: The GRANT statement is used to give specific privileges to users in database. Privileges include ability to
 select, create, update, delete or manage database objects.
 
-II. REVOKE: The REVOKE statement is used to revoke or remove previously granted privileges from users in database.
+II. REVOKE: The REVOKE statement is used to revoke or remove previously granted privileges for users in database.
     It can revoke specific privileges or all privileges granted to user.
 
 III. ALTER USER: The ALTER USER statement is used to modify the existing user privileges in database.
@@ -88,7 +88,7 @@ I. START TRANSACTION: This statement is used to explicitly begin a new transacti
     and allows you to group multiple sql statements into a logical unit or work.
 
 II. COMMIT: The COMMIT statement is used to save changes made during the transaction. It confirms successful completion
-    a transaction and save the changes permanently in the database.
+    of a transaction and save the changes permanently in the database.
 
 III. ROLLBACK: The ROLLBACK statement is used to undo the changes made during the transaction and brings back the data
     to its original state before transaction begins.

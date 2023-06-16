@@ -3,25 +3,29 @@ statements. The specific data types available may vary slightly between differen
 but here are some commonly used data types in SQL:
 
 Numeric Types:
-
+-------------
 INTEGER: Represents whole numbers (e.g., 1, 10, -5).
 FLOAT/REAL: Represents floating-point numbers with decimal precision (e.g., 3.14, -0.5).
 DECIMAL/NUMERIC: Represents fixed-point numbers with decimal precision (e.g., 3.1415, -123.45).
-Character/String Types:
 
+Character/String Types:
+----------------------
 CHAR(n): Represents fixed-length strings with a specified maximum length (e.g., 'hello' with n=5).
 VARCHAR(n): Represents variable-length strings with a maximum length (e.g., 'hello' with n=5).
 TEXT: Represents variable-length strings without a specified maximum length (used for large text blocks).
-Date and Time Types:
 
+Date and Time Types:
+-------------------
 DATE: Represents a date (e.g., '2023-06-07').
 TIME: Represents a time of day (e.g., '12:34:56').
 TIMESTAMP/DATETIME: Represents a combination of date and time (e.g., '2023-06-07 12:34:56').
+
 Boolean Type:
-
+------------
 BOOLEAN: Represents a logical value, typically true or false.
-Binary Types:
 
+Binary Types:
+------------
 BINARY: Represents fixed-length binary data.
 VARBINARY: Represents variable-length binary data.
 BLOB: Represents large binary objects (used for storing images, documents, etc.).
